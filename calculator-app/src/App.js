@@ -13,6 +13,10 @@ function App() {
     setResult('');
   };
 
+  const calculate = () => {
+    setResult(eval(result).toString())
+  }
+
   return(
     <>
       <div className="calc">
@@ -125,7 +129,7 @@ function App() {
           type="button" 
           value="=" 
           className="button button1"  
-          onClick={clickhandler}
+          onClick={calculate}
         />
       </div>
     </>
