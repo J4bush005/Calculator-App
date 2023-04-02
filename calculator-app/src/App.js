@@ -22,6 +22,10 @@ function App() {
         <input type="button" value="/" className="button"/>
         <input type="button" value="*" className="button"/>
         <input type="button" value="%" className="button"/>
+        <input type="button" value="." className="button"/>
+
+        <input type="button" value="clear" className="button button1"/>
+        <input type="button" value="=" className="button button1"/>
       </div>
     </>
   )
