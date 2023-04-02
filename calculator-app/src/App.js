@@ -9,6 +9,10 @@ function App() {
     setResult(result.concat(event.target.value));
   };
 
+  const clearDisplay = () => {
+    setResult('');
+  };
+
   return(
     <>
       <div className="calc">
@@ -115,7 +119,7 @@ function App() {
           type="button" 
           value="clear" 
           className="button button1"  
-          onClick={clickhandler}
+          onClick={clearDisplay}
         />
         <input 
           type="button" 
